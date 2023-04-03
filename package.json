@@ -1,0 +1,20 @@
+{
+  "name": "chat-opt",
+  "version": "1.0.0",
+  "description": "Chat for other people talking",
+  "main": "src/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx http-server ./src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/newdaveespionage/chat-opt.git"
+  },
+  "author": "David Cox-Espenlaub",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/newdaveespionage/chat-opt/issues"
+  },
+  "homepage": "https://github.com/newdaveespionage/chat-opt#readme"
+}
