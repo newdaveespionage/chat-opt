@@ -15,7 +15,7 @@ A learning environment created with credit to [@blackgirlbytes](https://github.c
   - run `npm run dev` to get an http server up and running
   - get initial git setup running
   - fork the repo
-  - `git push origin` onc
+  - `git push origin` once changes committed
 - Lesson 1: Build a web interface using HTML and the power of forms 
   - build a simple form that submits via `GET` and displays the text values in the URL
 - Lesson 2: Style it to be user friendly via CSS
