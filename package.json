@@ -5,7 +5,7 @@
   "main": "src/index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "npx http-server ./src"
+    "dev": "npx http-server ./src -c-1"
   },
   "repository": {
     "type": "git",
