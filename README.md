@@ -20,7 +20,14 @@ A learning environment created with credit to [@blackgirlbytes](https://github.c
   - build a simple form that submits via `GET` and displays the text values in the URL
 - Lesson 2: Style it to be user friendly via CSS
   - make the form user-friendly, get design consistency and a usable layout 
+  - set up and style a chat history panel
 - Lesson 3: Make it interactive with other implementations by leveraging Javascript
-  - prevent submitting the form without any message entered
+  - disable button and form submission if no message entered
+  - give UX guidance if user is trying to send an empty message
+  - avoid HTML form submission
+  - if new message is valid, append message to chat history container
 - Lesson 4: Using concepts such as databases and sockets to get things running at scale
+  - set up network connectivity to a server/service (local or remote)
+  - enable authentication to prevent unauthorized access
+  - enable end-to-end communication
 
