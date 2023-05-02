@@ -6,15 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chat OPT</title>
     <link rel="stylesheet" href="./style.css">
-    <script async src="./script.js"></script>
+    <link rel="icon" href="./images/favicon.svg">
+    <script src="./script.js"></script>
 </head>
 <body>
     <h1>Chat OPT</h1>
     <div class="content">
         <div class="panel">
-            <form>
+            <form novalidate>
                 <fieldset>
-                    <input type="text" name="message" placeholder="message goes here" required minlength="1">
+                    <label for="message">
+                        <span>What's on your mind?</span>
+                        <input id="message" type="text" name="message" placeholder="message goes here" required minlength="1">
+                        <span class="error" aria-live="polite"></span>
+                    </label>
                     <button type="submit" id="send-button">send it</button>
                 </fieldset>
             </form>
